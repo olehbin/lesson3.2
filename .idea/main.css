@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.crate {
+  width: 100%;
+  height: 650px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 30px;
+}
+
+p {
+  width: 50%;
+  text-align: center;
+}
+.a {
+  height: 50px;
+  width: 200px;
+  border: 3px solid blueviolet;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.block{
+  width: 25%;
+  height: 75%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: 3px solid blueviolet;
+  flex-direction: column;
+}
+.kolo {
+  width: 100%;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+.kolo_inner{
+  height: 75px;
+  width: 75px;
+  border: 3px solid darkred;
+  background-color: mediumpurple;
+  border-radius: 60%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: -65px;
+}
+h2 {
+  border: 2px solid blueviolet;
+}
